@@ -9,7 +9,6 @@ function main() {
     Logger.log(e);
   }
 
-  // ログインIDの入っている行が対象
   var range = sheet.getRange(1, 2, sheet.getLastRow()).getValues();
   Logger.log(range.length);
 
